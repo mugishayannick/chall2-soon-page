@@ -1,0 +1,94 @@
+.container{
+    text-align: center;
+    width: 100%;
+
+}
+body{
+  font-size: 20px;
+  font-family: 'Libre Franklin', sans-serif;
+  width: 98%;
+  
+  border: 5px solid black;
+}
+.container h1{
+  font-size: 1.2em;
+  margin-bottom: 30px;
+
+}
+.container h2{
+  margin-top: 50px;
+  
+
+}
+.container p{
+  font-size: 2.2em;
+  margin-top: 50px;
+  
+  
+}
+
+.container img{
+  height: 40vh;
+  margin-top: 50px;
+}
+
+
+input{
+    width: 300px;
+  border: 1px solid rgb(235, 235, 235);
+  padding: 10px 5px 10px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  outline: none;
+}
+input::placeholder{
+    opacity: 0.5;
+}
+button{
+    width: 100px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(6, 39, 187);
+    color: white;
+  padding: 10px 10px 10px;
+  font-size: 0.9rem;
+  outline: none;
+  cursor: pointer;
+}
+
+
+.icons{
+  color: rgb(20, 20, 172);
+  margin-top: 20px;
+  padding: 10px 10px 10px;
+  padding-left: 620px;
+  font-size: 0.7em;
+  
+}
+.icons i{
+  margin-right: 10px;
+  cursor: pointer;
+}
+.button:hover{
+  color: white;
+  background-color: wh;
+}
+/* Mobile Designs */
+@media (min-width:375px) {
+  .flex{
+      flex-direction: column;
+  }
+  .container{
+      text-align: center;
+  }
+  .box{
+      /* flex-direction: column-reverse; */
+      flex-wrap: wrap;
+  }
+  
+}
+
+
+
+
+
